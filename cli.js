@@ -1,22 +1,23 @@
 #!/usr/bin/env node
 
 const { execSync } = require('child_process');
-const { join } = require('path');
-const { promisify } = require('util');
-const ncp = require('ncp').ncp;
-const copy = promisify(ncp);
-const rimraf = promisify(require('rimraf'));
+const fsExtra = require('fs-extra');
+const path = require('path');
 
 (async () => {
-    const targetDirectory = process.argv[2] || process.cwd(); 
-    console.log(`Creating a new React register/login project in ${targetDirectory}...`);
+    const targetDirectory = process.argv[2] || process.cwd();
+    const templateRepoUrl = 'https://github.com/furbo1/react-register-login-fullstack.git';
+    const tempDirName = 'react-register-login-fullstack'; // Temporary directory name for cloned repo
 
-    const projectPath = join(targetDirectory, 'react-register-login-fullstack');
-    
     try {
-        execSync('git clone https://github.com/furbo1/react-register-login-fullstack.git', { stdio: 'inherit', cwd: targetDirectory });
+        console.log(`Creating a new React register/login project in ${targetDirectory}...`);
+
+        // Step 1: Clone the repository to a temporary directory
+        execSync(`git clone ${templateRepoUrl} "${tempDirName}"`, { stdio: 'inherit', cwd: targetDirectory });
+
+        const tempDirPath = path.join(targetDirectory, tempDirName);
         
-        await rimraf(join(projectPath, '.git'));
+        await fsExtra.remove(path.join(tempDirPath, '.git'));
 
         console.log('Project created successfully.');
     } catch (error) {
