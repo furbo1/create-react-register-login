@@ -1,6 +1,6 @@
 # Create a Fullstack React Auth Navigation Project
 
-This CLI tool, `create-react-register-login`, simplifies setting up a fullstack React application with secure user authentication. It scaffolds a project that uses Passport/Bcrypt for encryption and provides basic navigation between pages, leveraging [TailwindCSS](https://tailwindcss.com/) for modern and responsive design.
+This CLI tool, `create-react-auth-nav`, simplifies setting up a fullstack React application with secure user authentication. It scaffolds a project that uses Passport/Bcrypt for encryption and provides basic navigation between pages, leveraging [TailwindCSS](https://tailwindcss.com/) for modern and responsive design.
 
 ## Features
 
@@ -19,7 +19,7 @@ npx create-react-auth-nav
 
 This command creates a new directory called "react-register-fullstack" with the fullstack setup. Navigate into your new project directory to get started:
 
-cd react-register-fullstack
+cd react-auth
 
 ## To run the project from root folder and start both fronend and server, this require "concurrently" packages:
 
