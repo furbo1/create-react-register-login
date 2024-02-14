@@ -1,0 +1,40 @@
+{
+    "name": "create-react-register-login",
+    "version": "1.0.0",
+    "description": "A CLI tool to scaffold a fullstack React application with secure user authentication, leveraging React for the frontend and Node.js/Express for the backend, styled with TailwindCSS.",
+    "main": "cli.js",
+    "bin": {
+      "create-react-register-login": "./cli.js"
+    },
+    "scripts": {
+      "start": "node cli.js"
+    },
+    "keywords": [
+      "react",
+      "express",
+      "authentication",
+      "cli",
+      "scaffolding",
+      "fullstack",
+      "template",
+      "tailwindcss"
+    ],
+    "author": "Alex Cocan <alexcocan@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+      "axios": "^0.21.1",
+      "chalk": "^4.1.0",
+      "commander": "^7.2.0",
+      "ncp": "^2.0.0",
+      "inquirer": "^7.3.3"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/furbo1/create-react-register-login.git"
+    },
+    "bugs": {
+      "url": "https://github.com/furbo1/create-react-register-login/issues"
+    },
+    "homepage": "https://github.com/furbo1/create-react-register-login#readme"
+  }
+  
