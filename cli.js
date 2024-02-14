@@ -7,7 +7,7 @@ const path = require('path');
 (async () => {
     const targetDirectory = process.argv[2] || process.cwd();
     const templateRepoUrl = 'https://github.com/furbo1/react-register-login-fullstack.git';
-    const tempDirName = 'react-register-login-fullstack'; // Temporary directory name for cloned repo
+    const tempDirName = 'react-register-fullstack'; // Temporary directory name for cloned repo
 
     try {
         console.log(`Creating a new React register/login project in ${targetDirectory}...`);
@@ -16,7 +16,7 @@ const path = require('path');
         execSync(`git clone ${templateRepoUrl} "${tempDirName}"`, { stdio: 'inherit', cwd: targetDirectory });
 
         const tempDirPath = path.join(targetDirectory, tempDirName);
-        
+
         await fsExtra.remove(path.join(tempDirPath, '.git'));
 
         console.log('Project created successfully.');
