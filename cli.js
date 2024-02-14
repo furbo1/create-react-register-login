@@ -7,7 +7,7 @@ const path = require('path');
 (async () => {
     const targetDirectory = process.argv[2] || process.cwd();
     const templateRepoUrl = 'https://github.com/furbo1/react-register-login-fullstack.git';
-    const tempDirName = 'react-register-fullstack'; // Temporary directory name for cloned repo
+    const tempDirName = 'react-auth'; // Temporary directory name for cloned repo
 
     try {
         console.log(`Creating a new React register/login project in ${targetDirectory}...`);
