@@ -50,7 +50,8 @@ cd my-project
 
 The CLI tool generates the following project structure:
 
-my-project/
+```
+react-register-login/
 ├── backend/
 │   ├── server.js
 │   └── package.json
@@ -79,6 +80,7 @@ my-project/
 ├── .gitignore
 ├── package.json
 └── README.md
+```
 
 
 
