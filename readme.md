@@ -14,12 +14,12 @@ This CLI tool, `create-react-register-login`, simplifies setting up a fullstack 
 To create a new project with `create-react-register-login`, run:
 
 ```
-npx create-react-register-login my-project
+npx create-react-register-login
 ```
 
-This command creates a new directory called my-project with the fullstack setup. Navigate into your new project directory to get started:
+This command creates a new directory called "react-register-fullstack" with the fullstack setup. Navigate into your new project directory to get started:
 
-cd my-project
+cd react-register-fullstack
 
 ## To run the project from root folder and start both fronend and server, this require "concurrently" packages:
 
@@ -51,7 +51,7 @@ cd my-project
 The CLI tool generates the following project structure:
 
 ```
-react-register-login/
+react-register-fullstack/
 ├── backend/
 │   ├── server.js
 │   └── package.json
