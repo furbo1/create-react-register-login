@@ -85,7 +85,7 @@ react-auth/
 └── README.md
 ```
 
-# App 
+## App 
 ![Register Page](/assets/register.jpg "Register page")
 ![Login Page](/assets/login.jpg "Login Page")
 ![Home Page](/assets/home.jpg "Home Page")
