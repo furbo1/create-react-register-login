@@ -92,6 +92,9 @@ react-auth/
 ![Home Page](/assets/about.jpg "About Page")
 ![Home Page](/assets/contact.jpg "Contact Page")
 
+Disclaimer:
+This project, [create-react-auth-nav](https://www.npmjs.com/package/create-react-auth-nav), is provided as-is without any warranty of any kind, either express or implied, including but not limited to the implied warranties of merchantability, fitness for a particular purpose, or non-infringement. The use of [create-react-auth-nav](https://www.npmjs.com/package/create-react-auth-nav) is entirely at your own risk. The author(s) or contributors shall not be liable for any damages, including but not limited to direct, indirect, incidental, special, consequential, or punitive damages arising out of or in connection with your access to, use of, or reliance on this project. By using [create-react-auth-nav](https://www.npmjs.com/package/create-react-auth-nav), you agree to this disclaimer and acknowledge that the project is offered freely for use, modification, and distribution under its specified license, without any obligation for support, maintenance, or updates.
+
 
 
 
