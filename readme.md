@@ -1,6 +1,6 @@
 # Create a Fullstack React Auth Navigation Project
 
-This CLI tool, `create-react-auth-nav`, simplifies setting up a fullstack React application with secure user authentication. It scaffolds a project that uses Passport/Bcrypt for encryption and provides basic navigation between pages, leveraging [TailwindCSS](https://tailwindcss.com/) for modern and responsive design.
+This CLI tool, `npx create-react-auth-nav`, simplifies setting up a fullstack React application with secure user authentication. It scaffolds a project that uses Passport/Bcrypt for encryption and provides basic navigation between pages, leveraging [TailwindCSS](https://tailwindcss.com/) for modern and responsive design.
 
 ![Register Page](/assets/register.jpg "Register page")
 ![Login Page](/assets/login.jpg "Login Page")
